@@ -41,7 +41,7 @@ This project investigates transcriptomic alterations underlying **carfilzomib re
 
 ```
 .
-├──  Significant_DEGs_filtered.xlxs   # Normalized matrix, DEG lists
+
 ├── R Script/
 │   ├── DEA_and_Visualization.R       # Differential expression and visualization
 │   └── Enrichment_Analysis.R         # GO/KEGG/PPI enrichment
@@ -50,6 +50,7 @@ This project investigates transcriptomic alterations underlying **carfilzomib re
     ├── Figure 3.png
     ├── Figure 4.png
     └── Figure 5.png
+├──  Significant_DEGs_filtered.xlxs   # Normalized matrix, DEG lists
 └── README.md                         # Project documentation
 
 ```
