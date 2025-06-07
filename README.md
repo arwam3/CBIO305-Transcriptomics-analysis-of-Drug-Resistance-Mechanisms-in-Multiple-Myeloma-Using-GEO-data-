@@ -40,27 +40,20 @@ This project investigates transcriptomic alterations underlying **carfilzomib re
 ├── 
 ---
 
-## 🧭 Analysis Workflow
-
-🧫 Below is the workflow for microarray data analysis:
-
-![Workflow Diagram](workflow_diagram.png)
-
----
 
 ## 📁 Repository Structure
 
 .
-├── workflow_diagram.png # Pipeline diagram (optional)
-├── data/
+├── Workflow_diagram.png # Pipeline diagram (optional)
+├── Data/
 │ ├── raw/ # Raw CEL files (GSE69078)
 │ └── processed/ # Normalized matrix, DEG lists
 ├── scripts/
-│ ├── DEA_limma.R # Differential expression
-│ └── enrichment.R # GO/KEGG/PPI enrichment
+│ ├── DEA and Visualization.R # Differential expression
+│ └── Enrichment analysis.R # GO/KEGG/PPI enrichment
 ├── Figures/ # Plots: volcano, PCA, UMAP, etc.
 ├── README.md # Project documentation
-└── requirements.txt # R package dependencies
+└──Rrequirements.txt # R package dependencies
 
 ---
 
