@@ -32,7 +32,7 @@ This project investigates transcriptomic alterations underlying **carfilzomib re
 
 1. **Microarray preprocessing:** QC, normalization, and expression matrix construction using Bioconductor.  
 2. **DEA:** Differential expression using the `limma` package.  
-3. **Enrichment:** GO/KEGG pathway analysis and PPI network construction.  
+3. **Enrichment:** GO/KEGG pathway analysis and PPI network construction via `ClusterProfiler`.  
 4. **Visualization:** Volcano plots, UMAP, PCA, and heatmaps.
 
 ---
