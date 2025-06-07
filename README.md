@@ -22,7 +22,7 @@ Riz I, Hawley TS, Hawley RG. KLF4-SQSTM1/p62-associated prosurvival autophagy co
 This project investigates transcriptomic alterations underlying **carfilzomib resistance** in **multiple myeloma (MM)** using microarray data from the GEO database (**GSE69078**). The analysis focuses on identifying **differentially expressed genes (DEGs)** and associated **autophagy-related survival mechanisms**, including those regulated by **KLF4** and **SQSTM1/p62**.
 
 ![Graphical Abstract](https://github.com/user-attachments/assets/b2784e7e-89b4-4c88-ac17-7646b328f63b)  
-*Replace the URL above with your actual public image URL.*
+
 
 ---
 
@@ -47,8 +47,8 @@ This project investigates transcriptomic alterations underlying **carfilzomib re
 │   ├── DEA_and_Visualization.R   # Differential expression and visualization
 │   └── Enrichment_Analysis.R     # GO/KEGG/PPI enrichment
 ├── Figures/                      # Plots: volcano, PCA, UMAP, etc.
-├── README.md                    # Project documentation
-└── requirements.txt             # R package dependencies
+└── README.md                    # Project documentation
+
 ```
 
 ---
