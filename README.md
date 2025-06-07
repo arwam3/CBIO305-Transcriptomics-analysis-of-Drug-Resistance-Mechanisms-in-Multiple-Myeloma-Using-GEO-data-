@@ -15,7 +15,7 @@ Riz I, Hawley TS, Hawley RG. KLF4-SQSTM1/p62-associated prosurvival autophagy co
 - [Data Sources](#-data-sources)
 - [Setup and Requirements](#-setup-and-requirements)
 - [Visulaization and interpretation](#visualization_and_interpretation)
-- [Top 5 Differentially Expressed Genes (DEGs)](#Top_5_Differentially_Expressed Genes_(DEGs))
+- [Top 5 Differentially Expressed Genes (DEGs)](#top_5_differentially_expressed_genes_)
 
 ---
 
