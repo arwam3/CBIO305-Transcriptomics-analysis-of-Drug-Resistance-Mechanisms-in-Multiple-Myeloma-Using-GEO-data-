@@ -14,6 +14,7 @@ Riz I, Hawley TS, Hawley RG. KLF4-SQSTM1/p62-associated prosurvival autophagy co
 - [Repository Structure](#-repository-structure)
 - [Data Sources](#-data-sources)
 - [Setup and Requirements](#-setup-and-requirements)
+- [Visulaization](#visualizing_plots)
 
 ---
 
