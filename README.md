@@ -42,7 +42,7 @@ This project investigates transcriptomic alterations underlying **carfilzomib re
 ```
 .
 ├── Workflow_diagram.png           # Pipeline diagram (optional)
-├── data/
+├── Data/
 │   ├── raw/                      # Raw CEL files (GSE69078)
 │   └── processed/                # Normalized matrix, DEG lists
 ├── scripts/
