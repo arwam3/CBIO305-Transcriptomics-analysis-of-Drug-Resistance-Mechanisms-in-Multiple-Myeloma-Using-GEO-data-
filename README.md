@@ -92,7 +92,12 @@ BiocManager::install(c(
 
 ## :bar_chart: Visualization and Interpretation
 
-### Figure 3
+### Figure 2: Box Plot & Heatmap
+- **A.** The box plot shows that the overall distribution of gene expression levels (log2 transformed) is remarkably similar across all four sample groups: KMS 11 control, KMS 11 resistant, KMS 34 control, and KMS 34 resistant. The medians, interquartile ranges, and overall spread of the data points within each group appear consistent.
+- **B.**  The heatmap visually represents the expression levels of genes identified as differentially expressed (DEGs).
+- **C.** he histogram shows the distribution of adjusted p-values from the differential gene expression analysis. A "good" p-value distribution for a differential expression analysis typically shows a peak near 0 and a relatively flat distribution for higher p-values (approaching 1)
+
+### Figure 3 : MD Plot
 
 - **A. KMS-11 Resistant vs Control:**  
 Most genes show minimal change, but some are significantly up- or downregulated (logFC > ±1), indicating selective gene expression changes associated with resistance.
@@ -104,8 +109,8 @@ Stronger transcriptional shifts are observed, with many genes showing logFC > ±
 Major expression differences (logFC > ±4) reveal distinct resistance mechanisms between the two cell lines.
 
 ---
-
-### Figure 4
+ 
+### Figure 4 : Volcano Plot
 
 - **A. KMS-11 Resistant vs Control:**  
 Moderate differential expression is observed, with significant genes showing log2 fold change > ±1 and -log10 adjusted p-value > 2.
@@ -118,7 +123,7 @@ Extensive expression differences, with numerous genes showing log2 fold change >
 
 ---
 
-### Figure 5
+### Figure 5 : PCA & UMAP
 
 - The UMAP shows clear separation between KMS-11 and KMS-34 samples, and between control and resistant groups, highlighting distinct expression profiles across both cell lines and treatment conditions.  
 - PCA reveals strong clustering by both cell line and resistance status.  
