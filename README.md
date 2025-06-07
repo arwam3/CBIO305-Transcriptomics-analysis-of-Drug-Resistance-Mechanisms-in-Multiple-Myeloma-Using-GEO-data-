@@ -14,7 +14,8 @@ Riz I, Hawley TS, Hawley RG. KLF4-SQSTM1/p62-associated prosurvival autophagy co
 - [Repository Structure](#-repository-structure)
 - [Data Sources](#-data-sources)
 - [Setup and Requirements](#-setup-and-requirements)
-- [Visulaization](#visualization)
+- [Visulaization and interpretation](#visualization_and_interpretation)
+- [Top 5 Differentially Expressed Genes (DEGs)](#Top_5_Differentially_Expressed Genes_(DEGs))
 
 ---
 
@@ -85,3 +86,48 @@ BiocManager::install(c(
 ```
 
 ---
+---
+
+## :bar_chart: Visualization and Interpretation
+
+### Figure 3
+
+- **A. KMS-11 Resistant vs Control:**  
+Most genes show minimal change, but some are significantly up- or downregulated (logFC > ±1), indicating selective gene expression changes associated with resistance.
+
+- **B. KMS-34 Resistant vs Control:**  
+Stronger transcriptional shifts are observed, with many genes showing logFC > ±2, suggesting a more robust resistance-associated response.
+
+- **C. KMS-11 vs KMS-34 Resistant:**  
+Major expression differences (logFC > ±4) reveal distinct resistance mechanisms between the two cell lines.
+
+---
+
+### Figure 4
+
+- **A. KMS-11 Resistant vs Control:**  
+Moderate differential expression is observed, with significant genes showing log2 fold change > ±1 and -log10 adjusted p-value > 2.
+
+- **B. KMS-34 Resistant vs Control:**  
+Stronger expression changes are seen, with many genes exceeding log2 fold change ±2.5 and -log10 p-value > 6.
+
+- **C. KMS-11 vs KMS-34 Resistant:**  
+Extensive expression differences, with numerous genes showing log2 fold change > ±6 and high significance (-log10 p-value > 10).
+
+---
+
+### Figure 5
+
+- The UMAP shows clear separation between KMS-11 and KMS-34 samples, and between control and resistant groups, highlighting distinct expression profiles across both cell lines and treatment conditions.  
+- PCA reveals strong clustering by both cell line and resistance status.  
+- This distinct separation supports robust differences in gene expression driven by both cell type and resistance development.
+
+## 🔝 Top 5 Differentially Expressed Genes (DEGs)
+
+| **Gene**   | **Biological Role**                                                                                              | **Associated Pathways**                    | **Supporting Reference**   |
+|------------|-----------------------------------------------------------------------------------------------------------------|--------------------------------------------|----------------------------|
+| **GJA1 (Connexin 43)** | Connexin 43 is a major component of gap junctions enabling intercellular communication and ion exchange. It regulates cell cycle arrest, apoptosis, and differentiation, essential for tissue homeostasis. | Cell cycle regulation, apoptosis, tissue development | Zhang et al., 2014         |
+| **S100A4**  | Calcium-binding protein involved in cell migration, invasion, and metastasis. Plays a critical role in cytoskeletal remodeling and immune regulation in cancer progression. | Cancer metastasis, immune response modulation          | Lim et al., 2021           |
+| **CD74**   | Acts as a chaperone for MHC class II molecules and receptor for macrophage migration inhibitory factor (MIF). Regulates antigen presentation and immune cell signaling, overexpressed in hematologic malignancies. | Antigen processing and presentation, immune system regulation | Stein et al., 2004         |
+| **EPCAM**  | Transmembrane glycoprotein involved in epithelial cell adhesion, Wnt signaling, and tumorigenesis. Overexpressed in various cancers contributing to proliferation and stemness. | Epithelial cell signaling, cancer progression             | Trzpis et al., 2021        |
+
