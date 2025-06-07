@@ -41,15 +41,16 @@ This project investigates transcriptomic alterations underlying **carfilzomib re
 
 ```
 .
-├── Workflow_diagram.png           # Pipeline diagram (optional)
-├── Data/
-│   ├── raw/                      # Raw CEL files (GSE69078)
-│   └── processed/                # Normalized matrix, DEG lists
-├── scripts/
-│   ├── DEA_and_Visualization.R   # Differential expression and visualization
-│   └── Enrichment_Analysis.R     # GO/KEGG/PPI enrichment
-├── Figures/                      # Plots: volcano, PCA, UMAP, etc.
-└── README.md                    # Project documentation
+├──  Significant_DEGs_filtered.xlxs   # Normalized matrix, DEG lists
+├── R Script/
+│   ├── DEA_and_Visualization.R       # Differential expression and visualization
+│   └── Enrichment_Analysis.R         # GO/KEGG/PPI enrichment
+├── Figures/                          # Plots: volcano, PCA, UMAP, etc.
+    ├── Figure 2.png
+    ├── Figure 3.png
+    ├── Figure 4.png
+    └── Figure 5.png
+└── README.md                         # Project documentation
 
 ```
 
