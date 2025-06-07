@@ -1,4 +1,4 @@
-# 🔬 CBIO305 - Transcriptomics Analysis of Drug Resistance Mechanisms in Multiple Myeloma Using GEO Data
+# :dna: CBIO305 - Transcriptomics Analysis of Drug Resistance Mechanisms in Multiple Myeloma Using GEO Data
 
 This project accompanies the study:
 
@@ -17,7 +17,7 @@ Riz I, Hawley TS, Hawley RG. KLF4-SQSTM1/p62-associated prosurvival autophagy co
 
 ---
 
-## 🧪 Overview
+## :pushpin: Overview
 
 This project investigates transcriptomic alterations underlying **carfilzomib resistance** in **multiple myeloma (MM)** using microarray data from the GEO database (**GSE69078**). The analysis focuses on identifying **differentially expressed genes (DEGs)** and associated **autophagy-related survival mechanisms**, including those regulated by **KLF4** and **SQSTM1/p62**.
 
@@ -26,7 +26,7 @@ This project investigates transcriptomic alterations underlying **carfilzomib re
 
 ---
 
-## 🔬 Workflow
+## :clipboard: Workflow
 
 1. **Microarray preprocessing:** QC, normalization, and expression matrix construction using Bioconductor.  
 2. **DEA:** Differential expression using the `limma` package.  
